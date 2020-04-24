@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "ABC News",
+    "title": "WATCH: Coronavirus daily update: April 16, 2020",
+    "description": "The latest news and biggest developments to keep you informed about the deadly pandemic.",
+    "url": "https://abcnews.go.com/Health/video/coronavirus-daily-update-april-16-2020-70190549",
+    "urlToImage": "https://s.abcnews.com/images/Health/200416_vod_covid_daily_hpMain_16x9_992.jpg",
+    "publishedAt": "2020-04-16T19:45:15Z",
+    "content": "<li>Now Playing: One man's 'infuriating' experience filing for unemployment\r\n</li><li>Now Playing: Michigan protesters defy stay-at-home orders\r\n</li><li>Now Playing: 106-year-old survives COVID-19\r\n</li><li>Now Playing: Medical staff choir performs Bruno Mar\u2026 [+1224 chars]"
+}

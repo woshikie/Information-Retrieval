@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "Bbc News",
+    "title": "Confirmed global coronavirus cases pass one million",
+    "description": "The number of cases has doubled in less than a week, according to figures from John Hopkins University.",
+    "url": "https://www.bbc.co.uk/news/world-52144390",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7A23/production/_97176213_breaking_news_bigger.png",
+    "publishedAt": "2020-04-02T19:39:38Z",
+    "content": "More than a million cases of coronavirus have been registered globally, according to the latest figures from Johns Hopkins University - another grim milestone as the world grapples with the spreading pandemic. \r\nMore than 51,000 people have died and more than\u2026 [+1397 chars]"
+}

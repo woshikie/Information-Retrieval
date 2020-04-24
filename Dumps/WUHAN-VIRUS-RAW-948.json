@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Noah Higgins-Dunn",
+    "title": "Confirmed coronavirus cases in the US passes 500,000, according to Johns Hopkins University",
+    "description": "New York state is the epicenter of the outbreak in the country and has reported more cases than Italy, Spain, France and Germany.",
+    "url": "https://www.cnbc.com/2020/04/11/confirmed-coronavirus-cases-in-the-us-passes-500000-jhu.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106465758-158643268079220200409covidcountyhotspotsmap1000.png?v=1586432694",
+    "publishedAt": "2020-04-11T02:00:00Z",
+    "content": "The coronavirus has now infected over 500,000 people in the U.S. as of 9:25 p.m. Eastern Time Friday, constituting almost one-third of all cases across the globe, according to data from Johns Hopkins University.\u00a0\r\nThe virus, which emerged in Wuhan, China, in \u2026 [+1204 chars]"
+}

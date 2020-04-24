@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Berkeley Lovelace Jr.",
+    "title": "Coronavirus: WHO says changing climates and crowded cities drive disease outbreaks",
+    "description": "Even though scientists are still learning about Covid-19, the virus has shown the capability to \"accelerate in a number of different climates,\" one WHO official says.",
+    "url": "https://www.cnbc.com/2020/04/15/coronavirus-who-says-changing-climates-and-crowded-cities-drive-disease-outbreaks.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106490450-1586982924924gettyimages-1198915478.jpeg?v=1586983052",
+    "publishedAt": "2020-04-15T21:51:03Z",
+    "content": "There is \"no question\" that changes in temperature, rainfall and humidity are driving infectious disease outbreaks around the world, but the impact of rapidly changing weather systems on the coronavirus are not yet known, World Health Organization officials s\u2026 [+3044 chars]"
+}

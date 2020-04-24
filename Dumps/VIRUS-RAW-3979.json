@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "reuters",
+        "name": "Reuters"
+    },
+    "author": "Jonathan Allen",
+    "title": "New York hospital sends some 'borderline' COVID-19 patients home with oxygen monitors",
+    "description": "Some coronavirus patients who would have been admitted into the emergency department at a New York hospital are being sent home with an oxygen-monitoring device as the city's medical system struggles to reserve resources for only the sickest people.",
+    "url": "https://www.reuters.com/article/us-health-coronavirus-usa-home-idUSKCN21Q3F0",
+    "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20200408&t=2&i=1514196210&w=1200&r=LYNXNPEG370QL",
+    "publishedAt": "2020-04-08T22:35:02Z",
+    "content": "NEW YORK (Reuters) - Some coronavirus patients who would have been admitted into the emergency department at a New York hospital are being sent home with an oxygen-monitoring device as the city\u2019s medical system struggles to reserve resources for only the sick\u2026 [+2846 chars]"
+}

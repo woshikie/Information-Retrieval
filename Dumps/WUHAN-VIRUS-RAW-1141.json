@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "Morgan Winsor",
+    "title": "Coronavirus updates: China reports no new COVID-19 deaths for 9th straight day",
+    "description": "A global pandemic of the novel coronavirus has now killed more than 190,000 people worldwide.",
+    "url": "https://abcnews.go.com/Health/coronavirus-updates-china-reports-covid-19-deaths-9th/story?id=70324535",
+    "urlToImage": "https://s.abcnews.com/images/International/pedestrian-face-mask-beijing-china-ap-200424_hpMain_20200424-040359_16x9_992.jpg",
+    "publishedAt": "2020-04-24T08:24:48Z",
+    "content": "A global pandemic of the novel coronavirus has now killed more than 190,000 people worldwide.\r\nOver 2.7 million people across the globe have been diagnosed with COVID-19, the disease caused by the new respiratory virus, according to data compiled by the Cente\u2026 [+1804 chars]"
+}

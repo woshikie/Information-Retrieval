@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Thomas Franck",
+    "title": "Coronavirus live updates: New cases surge in Spain; Dow futures jump",
+    "description": "As of Tuesday, more than 387,382 cases of coronavirus have been reported, resulting in at least 16,767 deaths.",
+    "url": "https://www.cnbc.com/2020/03/24/coronavirus-live-updates.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106458285-1585051545176gettyimages-1214457570.jpeg?v=1585051592",
+    "publishedAt": "2020-03-24T11:55:07Z",
+    "content": "This is CNBC's live blog covering all the latest news on the coronavirus outbreak. All times below are in Eastern time. This blog will be updated throughout the day as the news breaks.\u00a0\r\n<ul><li>Global cases: More than\u00a0387,382</li><li>Global deaths: At least\u00a0\u2026 [+4969 chars]"
+}

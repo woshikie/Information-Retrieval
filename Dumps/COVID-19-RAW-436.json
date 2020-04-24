@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Scott Zamost",
+    "title": "Coronavirus fraudsters prey on fear and confusion with fake products, email scams",
+    "description": "The FBI is warning against phishing emails related to charitable contributions, general financial relief, airline refunds and fake cures, testing kits and vaccines.",
+    "url": "https://www.cnbc.com/2020/03/23/coronavirus-fraudsters-prey-on-fear-with-fake-products-email-scams.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106086605-1566246385610hacking.jpg?v=1584999695",
+    "publishedAt": "2020-03-24T13:01:01Z",
+    "content": "The authentic looking email from the World Health Organization isn't real at all but rather clever spam meant to steal personal information.\r\nCallers claiming to be Medicaid and Medicarerepresentatives are offering so-called free COVID-19 tests as long as you\u2026 [+5545 chars]"
+}

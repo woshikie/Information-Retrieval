@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-york-magazine",
+        "name": "New York Magazine"
+    },
+    "author": "Josh Barro",
+    "title": "The Unemployment Situation Will Get Worse Before It Gets Better",
+    "description": "The built-in lag in reporting unemployment figures means recovery is a long way off, though stimulus measures will soften the economy\u2019s crash landing.",
+    "url": "http://nymag.com/intelligencer/2020/04/coronavirus-unemployment-to-get-worse-before-it-gets-better.html",
+    "urlToImage": "https://pyxis.nymag.com/v1/imgs/562/5c8/0fc31484e37c8872ab4001016f73578ce2-coronavirus-unemployment-april.1x.rsocial.w1200.jpg",
+    "publishedAt": "2020-04-03T12:38:37Z",
+    "content": "Last weeks report on initial unemployment claims broke records in all the wrong ways, showing nearly 3.3 million Americans filed for unemployment benefits after losing their jobs, about five times the previous record. That record lasted for one week this week\u2026 [+8507 chars]"
+}

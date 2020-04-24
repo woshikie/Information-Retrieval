@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-york-magazine",
+        "name": "New York Magazine"
+    },
+    "author": "Adam K. Raymond",
+    "title": "Everything We Know About Coronavirus Antibody Tests",
+    "description": "The tests, which show immunity to COVID-19, will be a key part of understanding how much the virus has spread.",
+    "url": "http://nymag.com/intelligencer/2020/04/coronavirus-antibody-test-what-is-it-and-how-to-get-one.html",
+    "urlToImage": "https://pyxis.nymag.com/v1/imgs/cf5/de3/e4628d59f2ef0df7adedcde39088b5bc46-antibody-test.1x.rsocial.w1200.jpg",
+    "publishedAt": "2020-04-10T19:10:30Z",
+    "content": "Much of the discussion around coronavirus testing concerns the type of test that requires a long swab to go deep in your nose so you can find out, eventually, if you have the virus. These tests are helpful at diagnosing patients but less helpful at assessing \u2026 [+3569 chars]"
+}

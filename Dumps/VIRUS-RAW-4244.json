@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Joel Khalili",
+    "title": "This new malware locks you out of Windows - but there's a simple fix",
+    "description": "Hackers using pandemic fears to hook unwitting Windows users.",
+    "url": "https://www.techradar.com/news/this-new-malware-locks-you-out-of-windows-but-theres-a-simple-fix",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/2pJMXexznGXtB5UmCFqaPn-1200-80.jpg",
+    "publishedAt": "2020-04-03T10:42:07Z",
+    "content": "Security researchers have discovered a new malware scam capable of locking Window users out of their PCs - the first of its kind to play on fears surrounding the ongoing pandemic.\r\nReferred to as MBRLockers, this group of malware substitutes the Windows Maste\u2026 [+1776 chars]"
+}

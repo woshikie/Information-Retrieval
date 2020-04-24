@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "William Feuer",
+    "title": "USA now has more coronavirus cases than either China or Italy",
+    "description": "Major outbreaks in so-called hot spots such as New York threaten to overwhelm the local hospital systems, which have a limited number of beds, staff and equipment.",
+    "url": "https://www.cnbc.com/2020/03/26/usa-now-has-more-coronavirus-cases-than-either-china-or-italy.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106460624-158516230561020200325coronaviruscasesuscountiespercapita.png?v=1585162338",
+    "publishedAt": "2020-03-26T22:07:13Z",
+    "content": "America now has more confirmed coronavirus cases than Italy and China, becoming the largest outbreak in the world.\r\nThe total number of cases in the U.S. reached 82,404 Thursday evening, eclipsing China's 81,782 confirmed infections and Italy at 80,589, accor\u2026 [+1970 chars]"
+}

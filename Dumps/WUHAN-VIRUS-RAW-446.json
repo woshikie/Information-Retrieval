@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Can you compare countries?",
+    "description": "Should you be comparing Covid-19 statistics between countries?",
+    "url": "https://www.bbc.co.uk/news/52311014",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D3C5/production/_111831245_reichstag_getty.jpg",
+    "publishedAt": "2020-04-20T23:12:24Z",
+    "content": "Image copyrightGetty Images\r\nEveryone wants to know how well their country is tackling coronavirus, compared with others. But you have to make sure you're comparing the same things. \r\nThe United States, for example, has far more Covid-19 deaths than any other\u2026 [+7174 chars]"
+}

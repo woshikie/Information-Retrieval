@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Saheli Roy Choudhury",
+    "title": "Coronavirus live updates: China calls for global policy coordination, Italy death toll above 8,000",
+    "description": "Global cases of infection rose to nearly 530,000 and close to 24,000 people have died, according to data compiled by Johns Hopkins University.",
+    "url": "https://www.cnbc.com/2020/03/27/coronavirus-latest-updates-china-g20-italy.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106452876-1584663977843gettyimages-1207658042.jpeg?v=1585270469",
+    "publishedAt": "2020-03-27T00:48:00Z",
+    "content": "This is a live blog. Please check back for updates.\r\n<ul><li>Global cases: More than 529,500</li><li>Global deaths: At least 23,900</li><li>U.S. cases: At least 83,800</li><li>U.S. deaths: At least 1,200</li></ul>The data above was compiled by Johns Hopkins U\u2026 [+5695 chars]"
+}

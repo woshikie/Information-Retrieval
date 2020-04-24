@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Chaim Gartenberg",
+    "title": "Here\u2019s how Apple and Google will track the coronavirus with Bluetooth",
+    "description": "Apple and Google are working on a novel coronavirus contact tracing system designed to help monitor and track people who have come in contact with infected people. The system relies on Bluetooth \u2014 specifically, Bluetooth LE \u2014 to communicate between devices. H\u2026",
+    "url": "https://www.theverge.com/2020/4/14/21220644/apple-googles-bluetooth-low-energy-le-coronavirus-tracking-contact-tracing",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/LDGO-gwHU4KY7BJKRXoyHAxLt60=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/18316592/acastro_190717_1777_bluetooh_0001.jpg",
+    "publishedAt": "2020-04-14T17:31:41Z",
+    "content": "Is Bluetooth good enough to track the novel coronavirus?\r\nIllustration by Alex Castro / The Verge\r\nApple and Google have announced a hugely ambitious and potentially controversial contact tracing system designed to help users prevent spreading the novel coron\u2026 [+4859 chars]"
+}

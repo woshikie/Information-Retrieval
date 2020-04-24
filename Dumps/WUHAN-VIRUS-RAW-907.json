@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Cat Clifford",
+    "title": "Look inside the hospital in China where coronavirus patients were treated by robots",
+    "description": "Beijing-based robotics company CloudMinds sent robots to Chinese hospitals to help with the treatment of patients with coronavirus to limit the spread of the infection. Here's a look inside.",
+    "url": "https://www.cnbc.com/2020/03/23/video-hospital-in-china-where-covid-19-patients-treated-by-robots.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106452541-1584647567468employeevolunteerssettinguprobot.jpeg?v=1584647740",
+    "publishedAt": "2020-03-23T18:08:30Z",
+    "content": "The idea of humanoid robots taking jobs previously done by humans may feel dystopian, but in the midst of the global COVID-19 pandemic, robots can free up human hospital medical staff and limit the possibility virus spread.\r\nThat's precisely why Beijing-based\u2026 [+3130 chars]"
+}

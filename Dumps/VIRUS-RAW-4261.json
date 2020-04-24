@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Mark Wycislik-Wilson",
+    "title": "Google is making a security compromise to keep Chrome running smoothly",
+    "description": "Google rolls back SameSite cookie changes to avoid disrupting the internet.",
+    "url": "https://www.techradar.com/news/google-is-making-a-security-compromise-to-keep-chrome-running-smoothly",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/edEdpS437vaDaZ6PEFo2pk-1200-80.jpg",
+    "publishedAt": "2020-04-06T11:11:00Z",
+    "content": "Google is delaying a Chrome security update to minimize disruption while people are forced to work remotely.\u00a0\r\nBack in February, Google started to implement an important change to limit the functionality of third-party cookies in Chrome. Launched in Chrome 80\u2026 [+1509 chars]"
+}

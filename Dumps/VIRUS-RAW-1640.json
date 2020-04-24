@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnn",
+        "name": "CNN"
+    },
+    "author": "Daniel Dale, Tara Subramaniam and David Wright, CNN",
+    "title": "Fact check: On Sunday, Trump takes no break from repeating false virus claims",
+    "description": "President Donald Trump used Sunday's White House briefing to repeat some of his favorite false claims about the coronavirus crisis and to make some new ones.",
+    "url": "https://www.cnn.com/2020/04/19/politics/trump-briefing-fact-check-april-19/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200419194609-08-coronavirus-briefing-0419-trump-super-tease.jpg",
+    "publishedAt": "2020-04-20T03:05:43Z",
+    "content": null
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "William Feuer",
+    "title": "Global coronavirus cases top two million, doubling in under two weeks",
+    "description": "Even as the spread of the virus appears to be slowing in several hard-hit countries, including Italy, Spain and the U.S., the WHO on Monday warned against lifting restrictions meant to curb the spread of the virus too early.",
+    "url": "https://www.cnbc.com/2020/04/13/global-coronavirus-cases-top-two-million-doubling-in-under-two-weeks.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106486707-158681532195920200413_world_map_1750-01.png?v=1586815330",
+    "publishedAt": "2020-04-14T00:26:36Z",
+    "content": "Reported COVID-19 cases around the world surpassed two million on Monday, doubling in 11 days as World Health Organization officials caution patience.\u00a0\r\nCovid-19 has infected more than\u00a02,019,320 people around the world and killed at least\u00a0119,483 people, acco\u2026 [+1138 chars]"
+}

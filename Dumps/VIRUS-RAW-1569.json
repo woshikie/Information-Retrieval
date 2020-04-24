@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Adam Jeffery",
+    "title": "Photos: In Las Vegas, a parking lot hosts homeless people during coronavirus outbreak",
+    "description": null,
+    "url": "https://www.cnbc.com/2020/04/15/photos-las-vegas-parking-lot-hosts-homeless-people-during-coronavirus.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106489974-1586967912521gettyimages-1215834754.jpeg?v=1586987531",
+    "publishedAt": "2020-04-15T22:03:26Z",
+    "content": "The Cashman Center stadium in Las Vegas normally hosts baseball and soccer games. But in response to the coronavirus, officials used its parking lot first as a temporary place for some homeless people to sleep and now as a coronavirus quarantine center for th\u2026 [+625 chars]"
+}

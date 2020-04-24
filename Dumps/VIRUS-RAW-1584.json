@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "William Feuer",
+    "title": "Worldwide coronavirus cases top 500,000, doubling in just over a week",
+    "description": "The virus has infected an additional 100,000 people around the world since Tuesday.",
+    "url": "https://www.cnbc.com/2020/03/26/worldwide-coronavirus-cases-top-500000-doubling-in-just-over-a-week.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106461012-158517652405920200325_world_map_1830-01.png?v=1585176541",
+    "publishedAt": "2020-03-26T17:52:13Z",
+    "content": "COVID-19 cases surpassed 500,000 across the world on Thursday, doubling in just over a week.\r\nThe total number of global cases now stands at 510,108\u00a0as of 1:30 p.m. ET on Thursday, according to data compiled by Johns Hopkins University. The virus emerged in W\u2026 [+741 chars]"
+}

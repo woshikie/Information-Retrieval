@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "William Feuer",
+    "title": "Global coronavirus cases cross 400,000, doubling in a week as pandemic accelerates",
+    "description": "Confirmed COVID-19 cases topped 200,000 last week.",
+    "url": "https://www.cnbc.com/2020/03/24/global-coronavirus-cases-cross-400000-doubling-in-a-week-as-pandemic-accelerates.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106457499-158500410346920200323_world_map_1830-01.png?v=1585004112",
+    "publishedAt": "2020-03-24T17:41:44Z",
+    "content": "COVID-19 cases surpassed 400,000 worldwide on Tuesday, doubling in less than a week as the virus spreads more rapidly across the world.\r\nThe total number of cases now stands at 407,485\u00a0as of 1:30 p.m. EDT on Tuesday, according to data compiled by John Hopkins\u2026 [+1413 chars]"
+}

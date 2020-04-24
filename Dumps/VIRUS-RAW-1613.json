@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Fred Imbert",
+    "title": "Stocks are set to jump at Monday's open, Dow futures rise more than 200 points",
+    "description": "U.S. stock futures rose on Sunday night as Wall Street tried to recover from another decline last week.",
+    "url": "https://www.cnbc.com/2020/04/05/stock-market-futures-open-to-close-news.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106460415-1585154734813gettyimages-1208040873.jpeg?v=1585154844",
+    "publishedAt": "2020-04-05T22:04:00Z",
+    "content": "U.S. stock futures rose on Sunday night as Wall Street tried to recover from another decline last week while investors shook off rising tensions\u00a0between Saudi Arabia and Russia.\r\nDow Jones Industrial Average futures traded more than 200 points higher, or 1.2%\u2026 [+2702 chars]"
+}

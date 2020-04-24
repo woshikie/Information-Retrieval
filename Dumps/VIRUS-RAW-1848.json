@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "engadget",
+        "name": "Engadget"
+    },
+    "author": "Jon Fingas",
+    "title": "France is developing an app to track the spread of COVID-19",
+    "description": "France is joining those countries betting that technology will help track and contain COVID-19. It\u2019s developing a StopCovid contact tracing mobile app that will use Bluetooth to detect transmission chains for the coronavirus and help limit the spread...",
+    "url": "https://www.engadget.com/france-covid-19-contract-tracing-app-183246258.html",
+    "urlToImage": "https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=80&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2020-04%2F86d12050-79c2-11ea-b39f-9dc0ac3b2726&client=amp-blogside-v2&signature=61da871d0f71aa1f5457e6547906c0fb8ba79f42",
+    "publishedAt": "2020-04-08T18:32:46Z",
+    "content": "Still, TechCrunchwarns that privacy concerns remain. It\u2019s not clear if StopCovid will be centralized or not. If it is, there\u2019s a risk hackers could match anonymized identifiers to real names. And like other tracking projects, there\u2019s a worry that the governme\u2026 [+705 chars]"
+}

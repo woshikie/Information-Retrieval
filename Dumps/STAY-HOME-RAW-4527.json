@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Adi Robertson",
+    "title": "How you\u2019ll use Apple and Google\u2019s coronavirus tracking tool",
+    "description": "Apple and Google are building a contact tracing system for iOS and Android, first as an API for health agency apps and then as a low-level OS feature. Here\u2019s what we know about the system.",
+    "url": "https://www.theverge.com/2020/4/10/21216715/apple-google-coronavirus-covid-19-contact-tracing-app-details-use",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/E8cYYP4wFdFfGNAL_Sunr-M46Ps=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19212729/akrales_190918_3645_0017.jpg",
+    "publishedAt": "2020-04-10T22:48:10Z",
+    "content": "Photo by Amelia Holowaty Krales / The Verge\r\nEarlier today, Apple and Google announced a Bluetooth-based COVID-19 contact tracing platform that could alert people if theyve been exposed to the novel coronavirus. Contact tracing is a huge component in ending m\u2026 [+5744 chars]"
+}

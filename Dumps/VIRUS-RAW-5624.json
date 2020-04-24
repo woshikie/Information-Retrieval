@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "wired",
+        "name": "Wired"
+    },
+    "author": "Andy Greenberg",
+    "title": "Clever Cryptography Could Save Privacy in Covid-19 Contact-Tracing Apps",
+    "description": "Researchers are racing to achieve the benefits of location-tracking without the surveillance.",
+    "url": "https://www.wired.com/story/covid-19-contact-tracing-apps-cryptography/",
+    "urlToImage": "https://media.wired.com/photos/5e8d42167b575f0008effd36/191:100/w_1280,c_limit/security-feature-crypto_covid_tracing-1164924287.jpg",
+    "publishedAt": "2020-04-08T14:35:00Z",
+    "content": "Before the Covid-19 pandemic, any system that used smartphones to track locations and contacts sounded like a dystopian surveillance nightmare. Now, it sounds like a dystopian surveillance nightmare that could also save millions of lives and rescue the global\u2026 [+6421 chars]"
+}

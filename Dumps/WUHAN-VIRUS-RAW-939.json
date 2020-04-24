@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "William Feuer",
+    "title": "Worldwide coronavirus cases reach 1 million, doubling in a week as death toll tops 50,000",
+    "description": "The virus threatens to spread widely across Africa, where several countries have seen hundreds of positive tests, according to Johns Hopkins University.",
+    "url": "https://www.cnbc.com/2020/04/02/worldwide-coronavirus-cases-reach-1-million-doubling-in-a-week.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106472016-158583981128220200402_world_map_1045-01.png?v=1585839838",
+    "publishedAt": "2020-04-02T19:10:01Z",
+    "content": "Reported COVID-19 cases around the world surpassed 1 million on Thursday, doubling in a week as the virus spreads across Europe and North America and establishes a toehold in Africa.\u00a0\r\nJust before global cases reached 1 million, the COVID-19 worldwide death t\u2026 [+1793 chars]"
+}

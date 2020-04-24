@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Andrew Marino",
+    "title": "Microsoft\u2019s CTO explains how AI can help health care in the US right now",
+    "description": "Kevin Scott discusses how AI and machine learning can use biometric sensing to possibly detect COVID-19",
+    "url": "https://www.theverge.com/2020/4/7/21210331/vergecast-interview-microsoft-cto-kevin-scott-ai-rural-america-health-care",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/E5qO9ZLV5wD3-ReGIHF5Zj3-S3E=/0x0:1314x688/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19880073/y648_1.jpg",
+    "publishedAt": "2020-04-07T17:36:56Z",
+    "content": "How can machine learning assist with COVID-19 diagnoses? \r\nThis week for our Vergecast interview series, Verge editor-in-chief Nilay Patel chats with Microsoft chief technology officer Kevin Scott about his new book Reprogramming the American Dream: From Rura\u2026 [+6980 chars]"
+}

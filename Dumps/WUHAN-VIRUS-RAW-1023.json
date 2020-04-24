@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnn",
+        "name": "CNN"
+    },
+    "author": "Julia Hollingsworth, CNN",
+    "title": "A coronavirus test can be developed in 24 hours. So why are some countries still struggling to diagnose?",
+    "description": "One German scientist created a coronavirus test in January to give countries outside China a head start on the battle against the virus. Three months later, many have squandered that opportunity.",
+    "url": "https://www.cnn.com/2020/03/24/asia/testing-coronavirus-science-intl-hnk/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200323220243-coronavirus-test-germany-super-tease.jpg",
+    "publishedAt": "2020-03-25T02:55:36Z",
+    "content": "January 5: China announces that the unknown pneumonia cases in Wuhan are not SARS or MERS.\r\nJanuary 7: Chinese authorities confirm that they have identified the virus as a novel coronavirus, initially named\u00a02019-nCoV\u00a0by the WHO.\r\nJanuary 11: The sequenced gen\u2026 [+612 chars]"
+}

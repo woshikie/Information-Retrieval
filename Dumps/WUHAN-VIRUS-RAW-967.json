@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Weizhen Tan",
+    "title": "Coronavirus live updates: China reports 30 new cases; White House says Americans need to prepare for more deaths",
+    "description": "China's National Health Commission said there were 30 new confirmed cases as of April 21, and no new deaths were reported for the seventh straight day.",
+    "url": "https://www.cnbc.com/2020/04/22/coronavirus-live-updates-china-new-cases-white-house-warns-of-more-deaths.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106493972-1587141385375gettyimages-1209780291.jpeg?v=1587517356",
+    "publishedAt": "2020-04-22T01:17:44Z",
+    "content": "This is CNBC's live blog covering all the latest news on the\u00a0coronavirus outbreak.\u00a0This blog will be updated throughout the day as the news breaks.\r\n<ul><li>Global cases: At least\u00a02,561,044.</li><li>Global deaths: At least\u00a0176,984.</li><li>Most cases reported\u2026 [+4613 chars]"
+}

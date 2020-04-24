@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Coronavirus: Health workers around the world on fears and fighting virus",
+    "description": "Medics from countries around the world on their fears and the challenges of fighting Covid-19.",
+    "url": "https://www.bbc.co.uk/news/av/health-52243291/coronavirus-health-workers-around-the-world-on-fears-and-fighting-virus",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9BA7/production/_111774893_p089f03m.jpg",
+    "publishedAt": "2020-04-13T23:04:04Z",
+    "content": "VideoMedics from countries around the world on their fears and the challenges of fighting Covid-19."
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+    },
+    "author": "USA TODAY, Jefferson Graham, USA TODAY",
+    "title": "Apple and Google team up on coronavirus tracking technology",
+    "description": "Tech giants look to developers to create apps to help locate COVID that will be interoperable between the Apple iOS and Google Android systems.",
+    "url": "https://www.usatoday.com/story/tech/2020/04/10/coronavirus-apple-and-google-covid-19-contact-tracking/5131508002/",
+    "urlToImage": "https://www.gannett-cdn.com/presto/2018/12/13/USAT/343e7f48-1563-4110-b491-56e3e0cdb873-AFP_AFP_1BH5LK.JPG?crop=4069,2279,x0,y0&width=3200&height=1680&fit=bounds",
+    "publishedAt": "2020-04-10T17:54:59Z",
+    "content": "Tech giants Apple and Google have teamed up to help governments and health agencies reduce the spread of the novel coronavirus, with Bluetooth technology.\r\nThe gist of the joint effort is on Contact Tracing, which, according to Google, \"makes it possible to c\u2026 [+3760 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Darren Allan",
+    "title": "Windows 10 update breaks its built-in antivirus protection",
+    "description": "Windows Defender has again been broken by another Microsoft update, according to online reports.",
+    "url": "https://www.techradar.com/news/windows-10-update-breaks-its-built-in-antivirus-protection",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/nm2BnZQRgDaEAWZPWUWLVF-1200-80.jpg",
+    "publishedAt": "2020-03-23T10:59:08Z",
+    "content": "Windows 10s built-in antivirus app, Windows Defender, is reportedly misfiring and failing to fully complete virus scans, apparently due to some kind of bug although exactly where this gremlin in the works might be isnt clear yet.\r\nWindows Latest picked up on \u2026 [+3227 chars]"
+}

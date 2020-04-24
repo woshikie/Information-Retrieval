@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "newsweek",
+        "name": "Newsweek"
+    },
+    "author": "Matthew Impelli",
+    "title": "U.S. Coronavirus Map Update: Latest on Where COVID-19 Cases Are Located",
+    "description": "The map tracks where the coronavirus outbreak is spreading across the U.S., now the epicenter of the global pandemic.",
+    "url": "https://www.newsweek.com/us-coronavirus-map-update-latest-where-covid-19-cases-are-located-1496665",
+    "urlToImage": "https://d.newsweek.com/en/full/1579850/coronavirus-us.jpg",
+    "publishedAt": "2020-04-07T19:57:37Z",
+    "content": "While nearly every state has implemented some kind of social distancing or stay-at-home measure as a way to combat the spread of the coronavirus, the U.S. has become the virus's epicenter, with 378,000 infected individuals and at least 11,851 deaths, a tracke\u2026 [+2463 chars]"
+}

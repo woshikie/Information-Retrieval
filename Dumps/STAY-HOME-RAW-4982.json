@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "vice-news",
+        "name": "Vice News"
+    },
+    "author": "Josh Terry, Leslie Horn",
+    "title": "We're Livestreaming a Music Festival to Raise Money for Artists",
+    "description": "On April 11, watch \u2018Noisey Night In\u2019 with Margo Price, Open Mike Eagle, and more. Proceeds benefit the Sweet Relief Musicians Fund.",
+    "url": "https://www.vice.com/en_us/article/xgq9bz/were-livestreaming-a-music-festival-to-raise-money-for-artists",
+    "urlToImage": "https://video-images.vice.com/test-uploads/articles/5e8c7f9eec408a009d4795b4/lede/1586270156332-NOISEY-NIGHT-IN-EDITORIAL-LEDE-V2.jpeg?crop=1xw:1xh;center,center&resize=1200:*",
+    "publishedAt": "2020-04-07T15:31:34Z",
+    "content": "As people around the world are stuck at home due to COVID-19, music has been a salve to cope with the changes of daily life. With tours postponed or canceled, album releases delayed, and devastating financial losses crippling the industry, artists and workers\u2026 [+1217 chars]"
+}

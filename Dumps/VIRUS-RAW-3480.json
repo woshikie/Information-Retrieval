@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-scientist",
+        "name": "New Scientist"
+    },
+    "author": "Michael Le Page",
+    "title": "How does coronavirus testing work and will we have a home test soon?",
+    "description": "Efforts to scale up testing for the covid-19 coronavirus has been slow in some countries, and some tests are more accurate than others, which could make it harder to slow the spread",
+    "url": "https://www.newscientist.com/article/2238477-how-does-coronavirus-testing-work-and-will-we-have-a-home-test-soon/",
+    "urlToImage": "https://images.newscientist.com/wp-content/uploads/2020/03/25153205/pa-51259611_web.jpg",
+    "publishedAt": "2020-03-25T16:17:12Z",
+    "content": "By Michael Le Page\r\nA swab test is the best way to identify coronavirus infections\r\nRoberto Pfeil/dpa\r\nBecause the symptoms of covid-19 are similar to those of other diseases, testing is the only way to know for sure if someone is infected with the coronaviru\u2026 [+4555 chars]"
+}

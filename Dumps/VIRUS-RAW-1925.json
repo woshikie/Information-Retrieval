@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "Aaron Katersky, Ella Torres",
+    "title": "At least 26 New York City homeless, among hundreds of cases, have died from COVID-19",
+    "description": "Mayor Bill de Blasio recently announced new protections for the homeless.",
+    "url": "https://abcnews.go.com/Health/23-homeless-hundreds-cases-died-york-city/story?id=70139748",
+    "urlToImage": "https://s.abcnews.com/images/International/homeless-nyc-gty-ps-200414_hpMain_16x9_992.jpg",
+    "publishedAt": "2020-04-14T16:47:46Z",
+    "content": "At least 26 homeless people among the 421 confirmed to have COVID-19 in New York City had died as of Tuesday, city officials said.\r\n\"As our city confronts this virus, we are marshaling every tool and resource at our disposal to meet this moment and protect th\u2026 [+1550 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Saheli Roy Choudhury",
+    "title": "Coronavirus live updates: Global cases over 856,900 death toll tops 42,000",
+    "description": "Most of the deaths occurred in Europe: 12,428 people have died in Italy, 8,464 in Spain and 3,523 in France.",
+    "url": "https://www.cnbc.com/2020/04/01/coronavirus-live-updates-global-death-toll-rises.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106467583-1585622218757gettyimages-1208660044.jpeg?v=1585699442",
+    "publishedAt": "2020-04-01T00:34:44Z",
+    "content": "This is a live blog. Please check back for updates.\r\n<ul><li>Global cases: More than 856,900</li><li>Global deaths: At least 42,081</li><li>Top 5 countries: United States (187,919), Italy (105,792), Spain (95,923), China (82,278), and Germany (71,808)</li></u\u2026 [+4282 chars]"
+}

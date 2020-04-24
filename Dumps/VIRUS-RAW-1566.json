@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Fred Imbert",
+    "title": "Stock futures slide as Wall Street takes a breather after last week's gains",
+    "description": "U.S. stock futures opened lower on Sunday night, putting Wall Street on track to give back some of the solid gains from the previous week",
+    "url": "https://www.cnbc.com/2020/04/19/stock-market-futures-open-to-close-news.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106468320-15856581191502020-03-24t142229z_470140335_rc2eqf99aa0a_rtrmadp_3_health-coronavirus-banks-bonuses.jpg?v=1585775199",
+    "publishedAt": "2020-04-19T22:05:00Z",
+    "content": "U.S. stock futures opened lower on Sunday night as investors weigh the latest news on the coronavirus front along with another decline in crude prices.\u00a0\r\nDow Jones Industrial Average futures slid 142 points, or 0.6%. S&amp;P 500 and Nasdaq 100 futures dipped \u2026 [+2193 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Eyal Wachsman",
+    "title": "Eliminating VPNs for more secure, productive remote work",
+    "description": "Businesses around the world have turned to VPNs to work remotely during the pandemic but NoVPN thinks it has a better answer.",
+    "url": "https://www.techradar.com/news/eliminating-vpns-for-more-secure-productive-remote-work",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/v5afvhApbvGMbaNZRAGbUL-1200-80.jpg",
+    "publishedAt": "2020-04-08T01:43:04Z",
+    "content": "VPNs were created back in the late 1990s to allow site-to-site connection by virtualizing network access at the TCP/IP level. The primary use-case at the time was to connect various corporate offices into a unified network. Since then, VPNs have grown in popu\u2026 [+7451 chars]"
+}

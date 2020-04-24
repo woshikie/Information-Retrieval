@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-york-magazine",
+        "name": "New York Magazine"
+    },
+    "author": "Chas Danner",
+    "title": "Coronavirus in New York: Latest Updates",
+    "description": "New York City\u2019s coronavirus death toll topped 1,000 on Tuesday night.",
+    "url": "https://nymag.com/intelligencer/article/new-york-coronavirus-cases-updates.html",
+    "urlToImage": "https://pixel.nymag.com/imgs/daily/intelligencer/2020/03/30/30-comfort-hospital-ship-nyc.w1200.h630.jpg",
+    "publishedAt": "2020-04-01T13:34:00Z",
+    "content": "As of Wednesday morning, there have been at least 76,049 confirmed cases of the coronavirus discovered in the state, including more than 43,119 in New York City. At least 1,550 people with COVID-19 have died in the state, which has the largest number around 4\u2026 [+60494 chars]"
+}

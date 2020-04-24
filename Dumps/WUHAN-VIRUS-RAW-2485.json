@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+    },
+    "author": "Philip Bump",
+    "title": "How mortality predictions in a leading coronavirus model dropped over time",
+    "description": "In some states, the actual death toll was a fraction of what the model predicted.",
+    "url": "https://www.washingtonpost.com/politics/2020/04/14/how-mortality-predictions-leading-coronavirus-model-dropped-over-time/",
+    "urlToImage": "https://www.washingtonpost.com/resizer/PQ20Hm_aN-EWx6NWwRP1gnZcWi8=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WHDVNUT2FEI6VIYRVWYTIRYZVE.jpg",
+    "publishedAt": "2020-04-14T20:08:36Z",
+    "content": "Happily, that estimate was wrong. As of Monday, according to data from Johns Hopkins University, only about 100 Alabamians have died of the disease.\r\nModeling, as White House coronavirus task force member Anthony S. Fauci would remind us, is a forward-looking\u2026 [+2752 chars]"
+}

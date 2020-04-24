@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnn",
+        "name": "CNN"
+    },
+    "author": "By <a href=\"/profiles/jessie-yeung\">Jessie Yeung</a>, <a href=\"/profiles/james-griffiths\">James Griffiths</a> and <a href=\"/profiles/steve-george\">Steve George</a>, CNN",
+    "title": "Coronavirus cases top 531,000 globally",
+    "description": "The novel coronavirus pandemic continues to impact countries worldwide, particularly in Europe and the US. Follow here for live updates",
+    "url": "https://www.cnn.com/world/live-news/coronavirus-outbreak-03-27-20-intl-hnk/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200213175739-03-coronavirus-0213-super-tease.jpg",
+    "publishedAt": "2020-03-27T02:55:36Z",
+    "content": "China confirmed 55 new cases of the coronavirus Thursday, bringing the total number of active cases to 3,292. The majority of those, 2,896, are in Hubei province, where the virus was first detected late last year.\r\nOf the new cases, all but one were imported,\u2026 [+435 chars]"
+}

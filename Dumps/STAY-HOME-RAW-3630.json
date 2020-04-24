@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "reuters",
+        "name": "Reuters"
+    },
+    "author": "Reuters Editorial",
+    "title": "Britain imposes lockdown to combat spread of coronavirus",
+    "description": "British Prime Minister Boris Johnson ordered stringent restrictions on people\u2019s movement to slow the spread of the coronavirus, saying people should stay at home unless they are buying food, travelling to work, needing medical care or exercising.",
+    "url": "https://www.reuters.com/article/us-health-coronavirus-johnson-lockdown-idUSKBN21A3KF",
+    "urlToImage": "https://s4.reutersmedia.net/resources_v2/images/rcom-default.png",
+    "publishedAt": "2020-03-23T20:44:42Z",
+    "content": "LONDON (Reuters) - British Prime Minister Boris Johnson ordered stringent restrictions on people\u2019s movement to slow the spread of the coronavirus, saying people should stay at home unless they are buying food, travelling to work, needing medical care or exerc\u2026 [+450 chars]"
+}

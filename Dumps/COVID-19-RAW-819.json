@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-york-magazine",
+        "name": "New York Magazine"
+    },
+    "author": "Chas Danner",
+    "title": "Coronavirus in New York: Latest Updates",
+    "description": "The USNS Comfort hospital ship is now docked in Manhattan as the state awaits the peak of the pandemic.",
+    "url": "https://nymag.com/intelligencer/2020/04/new-york-coronavirus-cases-updates.html",
+    "urlToImage": "https://pixel.nymag.com/imgs/daily/intelligencer/2020/03/30/30-comfort-hospital-ship-nyc.w1200.h630.jpg",
+    "publishedAt": "2020-04-01T04:45:00Z",
+    "content": "As of Tuesday night, there have been at least 75,795 confirmed cases of the coronavirus discovered in the state, including more than 43,139 in New York City. At least 1,550 people with COVID-19 have died in the state, which has the largest number around 40 pe\u2026 [+58407 chars]"
+}

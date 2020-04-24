@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "abc-news-au",
+        "name": "ABC News (AU)"
+    },
+    "author": "Suzannah Lyons",
+    "title": "Bats have lived with coronaviruses for thousands of years. What made this one jump?",
+    "description": "It's clear this coronavirus came from wildlife, but we may never know the exact host species it directly jumped from into humans.",
+    "url": "https://www.abc.net.au/news/science/2020-04-09/how-did-this-coronavirus-start/12132312",
+    "urlToImage": "https://www.abc.net.au/cm/rimage/12133578-16x9-large.jpg?v=3",
+    "publishedAt": "2020-04-08T19:15:00Z",
+    "content": "Despite the conspiracy theories you're hearing, or the misinformation that's spreading on social media, it's clear that this coronavirus came from wildlife.\r\nBy looking at the genome of SARS-CoV-2 the virus that causes COVID-19 it is clear it has signatures t\u2026 [+7052 chars]"
+}

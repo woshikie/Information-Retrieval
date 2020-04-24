@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Coronavirus: New York has more cases than any country",
+    "description": "Photos emerge of workers in hazmat outfits stacking coffins in a mass grave in New York City.",
+    "url": "https://www.bbc.co.uk/news/world-us-canada-52239261",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1B20/production/_111744960_hi061004818.jpg",
+    "publishedAt": "2020-04-10T03:29:17Z",
+    "content": "Image copyrightReutersImage caption\r\n Mourners attend a funeral in Brooklyn, New York, as the city's coronavirus death toll hit a record high for a third day\r\nNew York state now has more coronavirus cases than any other country outside the US, according to la\u2026 [+5694 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Casey Newton",
+    "title": "Google uses location data to show which places are complying with stay-at-home orders \u2014 and which aren\u2019t",
+    "description": "New COVID-19 mobility reports show changes in traffic to stores, parks, transit stations, and more",
+    "url": "https://www.theverge.com/2020/4/3/21206318/google-location-data-mobility-reports-covid-19-privacy",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/zecX0cPldoJGxd8xivCIx07sXlA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10745895/acastro_180427_1777_0001.jpg",
+    "publishedAt": "2020-04-03T06:00:00Z",
+    "content": "New COVID-19 mobility reports show changes in traffic to stores, parks, transit stations, and more\r\nIllustration by Alex Castro / The Verge\r\nGoogle is using location data gathered from smartphones to help public health officials understand how peoples movemen\u2026 [+5248 chars]"
+}

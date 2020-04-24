@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnn",
+        "name": "CNN"
+    },
+    "author": "Ivana Kottasov\u00e1 and Tim Lister, CNN",
+    "title": "Air pollution drops as Europeans stay at home",
+    "description": "Most Europeans are currently living under severe restrictions, stuck at home, desperately hoping for the coronavirus pandemic to pass soon.",
+    "url": "https://www.cnn.com/2020/03/27/europe/europe-pollution-decline-coronavirus-lockdown-intl/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200205103634-reino-unido-prohibicion-combustibles-fosiles-autos-gasolina-2035-vo-portafolio-global-cnnee-00000000-super-tease.jpg",
+    "publishedAt": "2020-03-27T17:53:32Z",
+    "content": null
+}

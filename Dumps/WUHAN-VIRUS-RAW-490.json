@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Coronavirus: What do all the terms mean?",
+    "description": "Use our tool to check the meaning of key words and phrases associated with the Covid-19 outbreak",
+    "url": "https://www.bbc.co.uk/news/health-52182658",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2015/production/_111631280_index_world_2_976-nc.png",
+    "publishedAt": "2020-04-14T17:33:29Z",
+    "content": "<li>Asymptomatic\r\nA person who has a disease but is displaying no symptoms of that illness. A study of one village in Italy suggests 50-75% of Covid-19 cases there could be asymptomatic.\r\n</li><li>Containment phase\r\nThe first part of the UK's strategy to deal\u2026 [+4585 chars]"
+}

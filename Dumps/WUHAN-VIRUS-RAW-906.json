@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "CNBC Asia Source",
+    "title": "Coronavirus live updates: Wuhan eases lockdown, China reports 62 new cases and 2 deaths",
+    "description": "The central Chinese city of Wuhan \u2014 where the coronavirus was first reported \u2014 started allowing people to leave for the first time since it was locked down.",
+    "url": "https://www.cnbc.com/2020/04/08/coronavirus-live-updates-wuhan-eases-lockdown-allows-people-to-leave.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106479426-1586306360041gettyimages-1209374665.jpeg?v=1586306414",
+    "publishedAt": "2020-04-08T01:07:00Z",
+    "content": "This is a live blog. Please check back for updates.\r\n<ul><li>Global cases: More than\u00a01,426,000</li><li>Global deaths: At least\u00a081,865</li><li>Most cases reported: United States (396,223), Spain (141,942), Italy (135,586), France (110,065) and Germany (107,663\u2026 [+3659 chars]"
+}

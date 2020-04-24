@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Weizhen Tan",
+    "title": "Coronavirus live updates: China reports 47 new imported cases, Asia markets jump",
+    "description": "China's total was 81,218 confirmed cases, and 3,281 fatalities as of Mar. 24. The total number of imported cases was 474.",
+    "url": "https://www.cnbc.com/2020/03/25/coronavirus-live-updates-china-reports-47-new-imported-cases.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106458410-1585055203922gettyimages-1208074563.jpeg?v=1585055262",
+    "publishedAt": "2020-03-25T00:24:09Z",
+    "content": "This photo taken on March 23, 2020 shows employees eating during lunch break at an auto plant of Dongfeng Honda in Wuhan in China's central Hubei province.\r\nThis is a live blog. Please check back for updates.\r\n<ul><li>Global cases: At least 375,498, according\u2026 [+3965 chars]"
+}

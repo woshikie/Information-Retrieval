@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+    },
+    "author": "Walter Thompson",
+    "title": "What you need to know about COVID-19-related cyberattacks",
+    "description": "Attack methods logically exploit changes in the global environment. Mass working over remote connection leads to mass remote login activity.",
+    "url": "http://techcrunch.com/2020/04/14/what-you-need-to-know-about-covid-19-related-cyberattacks/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/04/GettyImages-78767360.jpg?w=600",
+    "publishedAt": "2020-04-14T13:42:05Z",
+    "content": "The COVID-19 outbreak has not only caused global disruption, it has also changed the cybersecurity threat landscape. We are observing changing patterns of behaviors from threat actors and noticing waves of coronavirus-related cyberattacks.\r\nTo be clear, this \u2026 [+1643 chars]"
+}

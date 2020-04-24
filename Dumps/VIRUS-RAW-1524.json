@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "By Bryn Bache",
+    "title": "This animated map shows the latest spread of the coronavirus worldwide",
+    "description": "This animated map of daily confirmed COVID-19 cases shows how the emergence of the virus in China was followed by hotspots in Iran and Italy before spreading through Europe and across the Atlantic to the U.S.",
+    "url": "https://www.cnbc.com/2020/04/08/this-animated-map-shows-the-latest-spread-of-the-coronavirus-worldwide.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106480120-1586346454589animatedmapthumbnail.png?v=1586346492",
+    "publishedAt": "2020-04-08T12:03:24Z",
+    "content": null
+}

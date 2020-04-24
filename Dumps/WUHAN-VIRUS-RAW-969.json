@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "William Feuer",
+    "title": "US coronavirus cases top 100,000, doubling in three days",
+    "description": "On Thursday, confirmed cases in the U.S. surpassed that of both China and Italy, making it the country with the largest outbreak in the world.",
+    "url": "https://www.cnbc.com/2020/03/27/us-coronavirus-cases-top-100000-doubling-in-three-days.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106463547-158531463413420200327covidcountyhotspotsmap740.png?v=1585314648",
+    "publishedAt": "2020-03-27T21:42:40Z",
+    "content": "Confirmed COVID-19 cases in the U.S. surpassed 100,000 Friday, doubling in just three days as the pandemic accelerates and the U.S. rolls out broader testing measures.\r\nData from Johns Hopkins University showed the total number of coronavirus cases as 101,707\u2026 [+2274 chars]"
+}

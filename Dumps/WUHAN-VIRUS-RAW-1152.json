@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "Ali Dukakis",
+    "title": "China using software surveillance to track COVID-19, alarming human rights advocates",
+    "description": "The Chinese government has begun to track some of its citizens through software that analyzes their personal data.",
+    "url": "https://abcnews.go.com/International/china-rolls-software-surveillance-covid-19-pandemic-alarming/story?id=70131355",
+    "urlToImage": "https://s.abcnews.com/images/International/wuhan-green-pass-ap-jt-200413_hpMain_16x9_992.jpg",
+    "publishedAt": "2020-04-14T10:30:22Z",
+    "content": "Wuhan, China, where the first reported cases of novel coronavirus emerged ten weeks ago, reopened its borders last week. Theres just one catch: A government surveillance app is required to enter and exit the region.\r\nThe Chinese government has begun to track \u2026 [+5166 chars]"
+}

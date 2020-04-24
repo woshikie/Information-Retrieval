@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+    },
+    "author": "Weizhen Tan",
+    "title": "Coronavirus live updates: China reports 42 new cases, 1 death",
+    "description": "China's National Health Commission (NHC) said there were 42 new confirmed cases as of April 9, of which 38 were attributed to travelers coming from overseas.",
+    "url": "https://www.cnbc.com/2020/04/10/coronavirus-live-updates.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106480352-1586353572525gettyimages-1209479968.jpeg?v=1586357891",
+    "publishedAt": "2020-04-10T00:01:00Z",
+    "content": "This is a live blog. Please check back for updates.\r\n<ul><li>Global cases: At least\u00a01,595,350.</li><li>Global deaths: At least\u00a095,455.</li><li>Most cases reported: United States (461,437), Spain (153,222), Italy (143,626), France (118,781), Germany (118,181).\u2026 [+3726 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "time",
+        "name": "Time"
+    },
+    "author": "Associated Press",
+    "title": "At Least 7 People Are Killed After Severe Storms Ravage Parts of the South",
+    "description": "Severe weather blew through the South on Thursday after killing at least seven people in Oklahoma, Texas and Louisiana.",
+    "url": "https://time.com/5826815/severe-storms-us-deaths/",
+    "urlToImage": "https://api.time.com/wp-content/uploads/2020/04/deadly-storms-south.jpg?quality=85&w=1200&h=628&crop=1",
+    "publishedAt": "2020-04-24T00:44:41Z",
+    "content": "(MADILL, Okla.) \u2014 Severe weather blew through the South on Thursday after killing at least seven people in Oklahoma, Texas and Louisiana, including a worker at a factory hit by an apparent tornado, a man whose car was blown off the road and a man who went out\u2026 [+4502 chars]"
+}

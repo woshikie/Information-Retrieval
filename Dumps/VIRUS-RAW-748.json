@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Coronavirus: Fake and misleading stories that went viral this week",
+    "description": "A global look at Covid-19 rumours and disinformation.",
+    "url": "https://www.bbc.co.uk/news/52124740",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7A03/production/_111553213_fake_news_index_v6.jpg",
+    "publishedAt": "2020-04-03T23:50:52Z",
+    "content": "We've all been there. A coronavirus post that could be true and sounds about right, but how do we know it's accurate?\r\nTo help, the BBC's disinformation-monitoring team is fact-checking and verifying some of the most widely shared fake and misleading stories \u2026 [+5399 chars]"
+}

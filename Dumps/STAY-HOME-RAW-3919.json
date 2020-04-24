@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Anthony Spadafora",
+    "title": "Google could eliminate VPNs for millions with this new tool",
+    "description": "Google Cloud has launched a new security tool for remote access which has been used internally by the company for almost a decade.",
+    "url": "https://www.techradar.com/news/google-could-eliminate-vpns-for-millions-with-this-new-tool",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/S5VND7L9BjdtHW8VjMgn5U-1200-80.jpg",
+    "publishedAt": "2020-04-21T18:57:25Z",
+    "content": "As the number of remote workers has surged as a result of the global pandemic, Google Cloud has launched a new security tool designed to allow users to access their company networks remotely without using a VPN.\r\nThe company's new cloud-based security solutio\u2026 [+2600 chars]"
+}

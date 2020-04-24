@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "msnbc",
+        "name": "MSNBC"
+    },
+    "author": "MSNBC.com",
+    "title": "Cuomo: Testing survey finds 13.9 percent positive for COVID-19 antibodies",
+    "description": "During a press conference, Gov. Andrew Cuomo showed survey results that 13.9% of New York residents infected with COVID-19 have developed antibodies to fight the virus.",
+    "url": "https://www.msnbc.com/msnbc/watch/cuomo-testing-survey-finds-13-9-percent-positive-for-covid-19-antibodies-82450501886",
+    "urlToImage": "https://media11.s-nbcnews.com/j/MSNBC/Components/Video/202004/cuomoanti.nbcnews-fp-1200-630.jpg",
+    "publishedAt": "2020-04-23T16:00:43Z",
+    "content": null
+}

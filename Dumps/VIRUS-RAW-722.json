@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Coronavirus: Trump extends restrictions beyond Easter",
+    "description": "The US president extends measures to 30 April, saying casualties are likely to peak in two weeks.",
+    "url": "https://www.bbc.co.uk/news/world-us-canada-52087113",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/15104/production/_111467268_capture.jpg",
+    "publishedAt": "2020-03-29T23:03:13Z",
+    "content": "Image copyrightGetty ImagesImage caption\r\n President Trump: \"Nothing would be worse than declaring victory before victory is won\"\r\nUS President Donald Trump has said coronavirus restrictions such as social distancing will be extended across the country until \u2026 [+2010 chars]"
+}

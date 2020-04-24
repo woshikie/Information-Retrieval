@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-york-magazine",
+        "name": "New York Magazine"
+    },
+    "author": "Zak Cheney-Rice",
+    "title": "Who \u2018Deserves\u2019 Jail During a Pandemic?",
+    "description": "The Cook County Jail in Chicago is America\u2019s biggest coronavirus hotspot. Why did we allow this?",
+    "url": "http://nymag.com/intelligencer/2020/04/cook-county-jail-coronavirus.html",
+    "urlToImage": "https://pyxis.nymag.com/v1/imgs/ea3/276/a29cc34f84205b568d06e2dfc8734ff748-cook-county-jail.1x.rsocial.w1200.jpg",
+    "publishedAt": "2020-04-10T17:00:53Z",
+    "content": "The Cook County Jail in southwest Chicago is Americas biggest known source of coronavirus infections. There are bigger metropolitan epicenters to be sure, like New York City; there are places where COVID-19 death rates are higher, like New Orleans and Detroit\u2026 [+6716 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "ABC News",
+    "title": "WATCH: Coronavirus daily update: April 20, 2020",
+    "description": "The latest news and biggest developments to keep you informed about the deadly pandemic.",
+    "url": "https://abcnews.go.com/Health/video/coronavirus-daily-update-april-20-2020-70249626",
+    "urlToImage": "https://s.abcnews.com/images/Health/200420_covid_daily_hpMain_16x9_992.jpg",
+    "publishedAt": "2020-04-20T19:50:57Z",
+    "content": "<li>Now Playing: California woman with coronavirus exhibits unusual rash\r\n</li><li>Now Playing: Cuomo calls for hazard pay for frontline workers\r\n</li><li>Now Playing: Ask the Doctor: side effects\r\n</li><li>Now Playing: Deal on new stimulus package?\r\n</li><li\u2026 [+1224 chars]"
+}

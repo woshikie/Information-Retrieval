@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "vice-news",
+        "name": "Vice News"
+    },
+    "author": "Matthew Gault, Emanuel Maiberg",
+    "title": "The Off-Grid CyberDeck Is a Computer for the Apocalypse",
+    "description": "With a Raspberry Pi and other parts, it\u2019s simple to build a rugged waterproof computer to ride out the collapse of civilization.",
+    "url": "https://www.vice.com/en_us/article/bvg4n3/the-off-grid-cyberdeck-is-a-computer-for-the-apocalypse",
+    "urlToImage": "https://video-images.vice.com/test-uploads/articles/5e8626ab6b0e12009d88ad27/lede/1585850259784-JAY01431.jpeg?crop=1xw:0.8429070929070929xh;center,center&resize=1200:*",
+    "publishedAt": "2020-04-02T18:00:18Z",
+    "content": "Look. Things arent great. COVID-19 is ravaging the planet, wildfire season is about to start, and weather experts say that this years hurricane season may be worse than usual. Its a great time to take up a hobby like, say, building your computer. In a desolat\u2026 [+2537 chars]"
+}

@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Bill Thomas",
+    "title": "Team Fortress 2 source code has leaked, and you can apparently get malware by playing",
+    "description": "Valve's source code for Team Fortress 2 and Counter-Strike: Global Offensive has leaked, leading to some potentially nasty attacks.",
+    "url": "https://www.techradar.com/news/team-fortress-2-source-code-has-leaked-and-you-can-apparently-get-malware-by-playing",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/0afcf22ea2db0e5c4bc10cf2e61cf3e4-1200-80.jpg",
+    "publishedAt": "2020-04-22T18:41:25Z",
+    "content": "The source code for Team Fortress 2 has apparently been leaked, leading to hackers reportedly able to deliver malware through Remote Code Execution to other players.\u00a0\r\nThis leak was initially reported by @SteamDB on Twitter, with the source code in question d\u2026 [+2058 chars]"
+}
