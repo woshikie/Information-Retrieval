@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+    },
+    "author": "an_d_rew",
+    "title": "Show HN: Covid-19 Projections, Simple Logistic and Exponential Models",
+    "description": "Hello, HN! There have been a lot of COVID-19 from various sites, but a common complaint is that simple things like log-scaling population counts are are infrequently done. So I decided to do it: https://covid19.fernandes.org/ I've aggregated the JHU (per Coun\u2026",
+    "url": "https://news.ycombinator.com/item?id=22750752",
+    "urlToImage": null,
+    "publishedAt": "2020-04-01T16:48:59Z",
+    "content": "Hello, HN!There have been a lot of COVID-19 from various sites, but a common complaint is that simple things like log-scaling population counts are are infrequently done.\r\nSo I decided to do it: https://covid19.fernandes.org/\r\nI've aggregated the JHU (per Cou\u2026 [+676 chars]"
+}
