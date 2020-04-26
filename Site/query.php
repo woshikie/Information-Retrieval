@@ -5,6 +5,7 @@
     }
 
     $search = $_POST["search"];
+
     $pageString = isset($_POST["page"]) ? $_POST["page"] : "0";
 
     $categories = array(
@@ -13,7 +14,9 @@
         "environment",
         "politics",
         "science",
-        "tech"
+        "tech",
+        "positive",
+        "negative"
     );
 
     $filters = array();
@@ -57,7 +60,15 @@
                 $page = (int) $pageString;
                 $rows = 10.0;
 
-                $targetUrl = "http://103.195.5.203:8983/solr/CovidWatchML/select?q=title" . urlencode(":\"" . $_POST['search'] . "\"") . "&rows=10000";
+                $searchTerms = explode(" ", $search);
+                $searchString = "";
+
+                foreach ($searchTerms as $term) {
+                    if ($searchString !== "") $searchString .= " ";
+                    $searchString .= "title:" . $term;
+                }
+
+                $targetUrl = "http://103.195.5.203:8983/solr/CovidWatchML/select?q=" . urlencode($searchString) . "&rows=10000";
                 $response = file_get_contents($targetUrl);
                 $decoded = json_decode($response);
                 $docs = $decoded->response->docs;
@@ -66,13 +77,21 @@
 
                 foreach ($docs as $doc) {
                     $add = true;
-                    $category = isset($doc->category) ? $doc->category[0] : "general";
+                    $category = isset($doc->predicted_category) ? $doc->predicted_category[0] : "general";
+                    $category = strtolower($category);
+                    $posneg = isset($doc->posneg) ? $doc->posneg[0] : -1;
 
                     for ($index1 = 0; $index1 < count($categories); $index1++) {
                         $filter = $filters[$index1];
                         $category1 = $categories[$index1];
 
                         if (!$filter && $category1 === $category) {
+                            $add = false;
+                            break;
+                        } else if (!$filter && $category1 === "positive" && $posneg == 1) {
+                            $add = false;
+                            break;
+                        } else if (!$filter && $category1 === "negative" && $posneg == 0) {
                             $add = false;
                             break;
                         }
@@ -97,10 +116,15 @@
                     if (!isset($article->title) || !isset($article->url)) continue;
                     $title = $article->title[0];
                     $url = $article->url[0];
-
                     $source = isset($article->source) ? $article->source[0] : "";
+                    $sourceSplit = explode(":", $source);
+                    $source = $sourceSplit[count($sourceSplit) - 1];
+                    $source = trim($source, " '}");
                     $description = isset($article->description) ? $article->description[0] : "";
-                    $category = isset($article->category) ? $article->category[0] : "";
+                    $category = isset($article->predicted_category) ? $article->predicted_category[0] : "";
+                    $category = strtolower($category);
+
+                    $posneg = isset($article->posneg) ? $article->posneg[0] : -1;
                     $timeIntervalDisplay = "";
 
                     if (isset($article->publishedAt)) {
@@ -129,6 +153,8 @@
                             $suffix = $timeInterval->s == 1 ? "second" : "seconds";
                             $timeIntervalDisplay = $timeInterval->format("%s " . $suffix . " ago");
                         }
+
+                        $timeIntervalDisplay = $publishDT->format("d M Y");
                     }
 
                     echo "<div class = 'article_row_container'>";
@@ -141,6 +167,8 @@
 
                     echo "<div class = 'article_content_container'>";
                     echo "<p class = 'article_title'><a href='$url'>$title</a></p>";
+                    if ($posneg == 1) echo "<p class = 'pos_label'>Positive News</p>";
+                    else if ($posneg == 0) echo "<p class = 'neg_label'>Negative News</p>";
                     echo "<p class = 'info_label'>$source - $timeIntervalDisplay</p>";
                     echo "<p>$description</p>";
                     echo "</div>";
@@ -185,8 +213,10 @@
                             $category = $categories[$index];
 
                             echo "<div class = 'row'>";
-                            echo "<div class = 'col-sm-5'>";
-                            echo "<label for = 'filter$index'>" . ucfirst($category) . "</label>";
+                            echo "<div class = 'col-sm-7'>";
+
+                            if ($category === "positive" || $category === "negative") echo "<label for = 'filter$index'>" . ucfirst($category) . " News</label>";
+                            else echo "<label for = 'filter$index'>" . ucfirst($category) . "</label>";
                             echo "</div>";
 
                             echo "<div class = 'col-sm-3'>";
@@ -197,7 +227,7 @@
                     ?>
 
                     <div class = "row">
-                        <div class="col-sm-8">
+                        <div class="col-sm-9">
                             <button class = "search_form_button" id="query_filter_button">Apply Filters</button>
                         </div>
                     </div>

@@ -15,18 +15,27 @@ form {
 }
 
 #index_body {
-    position: absolute;
-    top: 30%;
-    left: 50%;
     width: 800px;
-    -moz-transform: translateX(-50%) translateY(-30%);
-    -webkit-transform: translateX(-50%) translateY(-30%);
-    transform: translateX(-50%) translateY(-30%);
+    margin: 64px auto;
     text-align: center;
 }
 
+#index_articles {
+
+}
+
+#index_positive_news {
+    width: 100%;
+    margin: 64px;
+}
+
+#index_negative_news {
+    width: 100%;
+    margin: 64px;
+}
+
 #index_image {
-    height: 300px;
+    height: 200px;
 }
 
 #query_image {
@@ -130,6 +139,14 @@ form {
 
 .button_label:hover {
     cursor: pointer;
+}
+
+.pos_label {
+    color: limegreen;
+}
+
+.neg_label {
+    color: lightcoral;
 }
 
 #query_filter_button {
