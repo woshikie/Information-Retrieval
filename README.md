@@ -1,6 +1,7 @@
 # Information-Retrieval
 
 Front end - Heroku
+[Heroku Demo](https://cz4034-covidwatch.herokuapp.com/)
 
 Back end - Solr on Free Trial VM (until 20 May)
 
