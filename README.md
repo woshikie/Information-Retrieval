@@ -1,5 +1,7 @@
 # Information-Retrieval
+
 Front end - Heroku
+
 Back end - Solr on Free Trial VM (until 20 May)
 
 # Files and Folder Structure
