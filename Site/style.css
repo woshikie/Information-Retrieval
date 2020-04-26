@@ -9,6 +9,11 @@ p {
     font-size: 10pt;
 }
 
+form {
+    --form-back-color: white;
+    --form-border-color: none;
+}
+
 #index_body {
     position: absolute;
     top: 30%;
@@ -102,11 +107,6 @@ p {
     width: 24%;
 }
 
-.filter_container form {
-    --form-back-color: white;
-    --form-border-color: none;
-}
-
 .filter_container input {
     vertical-align: middle;
     outline: 0;
@@ -114,6 +114,22 @@ p {
 
 .filter_container fieldset {
     --form-border-color: grey;
+}
+
+.article_page_container {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.article_page_container label {
+}
+
+.button_label {
+    color: lightskyblue;
+}
+
+.button_label:hover {
+    cursor: pointer;
 }
 
 #query_filter_button {
