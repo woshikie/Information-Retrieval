@@ -5,10 +5,24 @@
     }
 
     $search = $_POST["search"];
-    $filterA = isset($_POST["filterA"]);
-    $filterB = isset($_POST["filterB"]);
-    $filterC = isset($_POST["filterC"]);
-    $filterD = isset($_POST["filterD"]);
+    $pageString = isset($_POST["page"]) ? $_POST["page"] : "0";
+
+    $categories = array(
+        "general",
+        "business",
+        "environment",
+        "politics",
+        "science",
+        "tech"
+    );
+
+    $filters = array();
+
+    if (isset($_POST["page"])) {
+        foreach ($categories as $category) array_push($filters, isset($_POST[$category]));
+    } else {
+        foreach ($categories as $category) array_push($filters, true);
+    }
 ?>
 
 <!DOCTYPE html>
@@ -26,36 +40,71 @@
             <label for = "search_form_input"></label>
             <input id = "search_form_input" class = "search_form_input" name = "search" type = "text" value = "<?php echo "$search" ?>" placeholder = "Enter search terms..." />
             <button class = "search_form_button"><img class = "search_form_button_icon" src = "resources/icon_search.png" alt = ""/>Search</button>
+            <input name = "page" type = "hidden" value = "0" />
+
+            <?php
+                for ($index = 0; $index < count($categories); $index++) {
+                    $filter = $filters[$index];
+                    $category = $categories[$index];
+                    if ($filter) echo "<input name = $category type = 'hidden' value = 'true' />";
+                }
+            ?>
         </form>
 
         <div class = "articles_container">
             <?php
                 ini_set("allow_url_fopen", 1);
-                $searchEncoded = urlencode("\"" . $_POST['search'] . "\"");
-                $targetUrl = "http://103.195.5.203:8983/solr/CovidWatch/select?q=title%3A" . $searchEncoded . "&rows=50";
+                $page = (int) $pageString;
+                $rows = 10.0;
 
+                $targetUrl = "http://103.195.5.203:8983/solr/CovidWatchML/select?q=title" . urlencode(":\"" . $_POST['search'] . "\"") . "&rows=10000";
                 $response = file_get_contents($targetUrl);
                 $decoded = json_decode($response);
                 $docs = $decoded->response->docs;
-                $count = count($docs);
                 $queryTime = $decoded->responseHeader->QTime;
+                $articlesFiltered = array();
 
-                echo "<p class='info_label'>Found " . $count . " results (" . $queryTime . " milliseconds)</p><br/>";
+                foreach ($docs as $doc) {
+                    $add = true;
+                    $category = isset($doc->category) ? $doc->category[0] : "general";
 
-                if ($count) {
-                    $skipped = 0;
+                    for ($index1 = 0; $index1 < count($categories); $index1++) {
+                        $filter = $filters[$index1];
+                        $category1 = $categories[$index1];
 
-                    foreach ($docs as $doc) {
-                        if (!isset($doc->{'source.name'}) || !isset($doc->title) || !isset($doc->description) || !isset($doc->url) || !isset($doc->publishedAt)) {
-                            $skipped++;
-                            continue;
+                        if (!$filter && $category1 === $category) {
+                            $add = false;
+                            break;
                         }
+                    }
 
-                        $source = $doc->{'source.name'}[0];
-                        $title = $doc->title[0];
-                        $description = $doc->description[0];
-                        $url = $doc->url[0];
-                        $publishedAt = strtotime($doc->publishedAt[0]);
+                    if ($add) array_push($articlesFiltered, $doc);
+                }
+
+                $count = count($articlesFiltered);
+                $pages = ceil($count / $rows);
+                $start = $rows * $page;
+                $articles = array();
+
+                for ($index = $start; $index < $start + $rows; $index++) {
+                    if ($index >= $count) break;
+                    array_push($articles, $articlesFiltered[$index]);
+                }
+
+                echo "<p class='info_label'>Found " . $count . " result(s). (" . $queryTime . " milliseconds)</p><br/>";
+
+                foreach ($articles as $article) {
+                    if (!isset($article->title) || !isset($article->url)) continue;
+                    $title = $article->title[0];
+                    $url = $article->url[0];
+
+                    $source = isset($article->source) ? $article->source[0] : "";
+                    $description = isset($article->description) ? $article->description[0] : "";
+                    $category = isset($article->category) ? $article->category[0] : "";
+                    $timeIntervalDisplay = "";
+
+                    if (isset($article->publishedAt)) {
+                        $publishedAt = strtotime($article->publishedAt[0]);
                         $timestampNow = strtotime("now");
 
                         $publishDT = new DateTime();
@@ -80,23 +129,48 @@
                             $suffix = $timeInterval->s == 1 ? "second" : "seconds";
                             $timeIntervalDisplay = $timeInterval->format("%s " . $suffix . " ago");
                         }
-
-                        echo "<div class = 'article_row_container'>";
-                            echo "<div class = 'article_image_container'>";
-                            if (isset($doc->urlToImage)) {
-                                $imageUrl = $doc->urlToImage[0];
-                                echo "<img src = '$imageUrl' alt = '' class = 'article_image' />";
-                            }
-                            echo "</div>";
-
-                            echo "<div class = 'article_content_container'>";
-                                echo "<p class = 'article_title'><a href='$url'>$title</a></p>";
-                                echo "<p class = 'info_label'>$source - $timeIntervalDisplay</p>";
-                                echo "<p>$description</p>";
-                            echo "</div>";
-                        echo "</div>";
                     }
+
+                    echo "<div class = 'article_row_container'>";
+                    echo "<div class = 'article_image_container'>";
+                    if (isset($article->urlToImage)) {
+                        $imageUrl = $article->urlToImage[0];
+                        echo "<img src = '$imageUrl' alt = '' class = 'article_image' />";
+                    }
+                    echo "</div>";
+
+                    echo "<div class = 'article_content_container'>";
+                    echo "<p class = 'article_title'><a href='$url'>$title</a></p>";
+                    echo "<p class = 'info_label'>$source - $timeIntervalDisplay</p>";
+                    echo "<p>$description</p>";
+                    echo "</div>";
+                    echo "</div>";
                 }
+
+                echo "<div class = 'article_page_container'>";
+                echo "<form id = 'page_form' method = 'post'>";
+                echo "<input name = 'page' type = 'hidden' value = '0' />";
+                echo "<div class = 'row'>";
+
+                for ($index = 0; $index < $pages; $index++) {
+                    echo "<div class = 'col-sm-1'>";
+                    if ($index == $page) echo "<label>" . ($index + 1) . "</label>";
+                    else echo "<label class = 'button_label' onclick = 'pageClick(" . $index . ")'>" . ($index + 1) . "</label>";
+                    echo "</div>";
+                }
+
+                echo "</div>";
+
+                for ($index = 0; $index < count($categories); $index++) {
+                    $filter = $filters[$index];
+                    $category = $categories[$index];
+                    if ($filter) echo "<input name = $category type = 'hidden' value = 'true' />";
+                }
+
+                echo "<input id = 'page_input' name = 'page' type = 'hidden' value = '<?php echo $pageString ?>' />";
+                echo "<input name = 'search' type = 'hidden' value = '"; echo $search; echo "' />";
+                echo "</form>";
+                echo "</div>";
             ?>
         </div>
 
@@ -105,45 +179,22 @@
                 <fieldset>
                     <legend>Filters</legend>
 
-                    <div class = "row">
-                        <div class="col-sm-5">
-                            <label for = "filter_filterA">Filter A</label>
-                        </div>
+                    <?php
+                        for ($index = 0; $index < count($categories); $index++) {
+                            $filter = $filters[$index];
+                            $category = $categories[$index];
 
-                        <div class="col-sm-3">
-                            <input id = "filter_filterA" type = "checkbox" name = "filterA" value = "true" <?php if ($filterA) echo "checked" ?> />
-                        </div>
-                    </div>
+                            echo "<div class = 'row'>";
+                            echo "<div class = 'col-sm-5'>";
+                            echo "<label for = 'filter$index'>" . ucfirst($category) . "</label>";
+                            echo "</div>";
 
-                    <div class = "row">
-                        <div class="col-sm-5">
-                            <label for = "filter_filterB">Filter B</label>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <input id = "filter_filterB" type = "checkbox" name = "filterB" value = "true" <?php if ($filterB) echo "checked" ?> />
-                        </div>
-                    </div>
-
-                    <div class = "row">
-                        <div class="col-sm-5">
-                            <label for = "filter_filterC">Filter C</label>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <input id = "filter_filterC" type = "checkbox" name = "filterC" value = "true" <?php if ($filterC) echo "checked" ?> />
-                        </div>
-                    </div>
-
-                    <div class = "row">
-                        <div class="col-sm-5">
-                            <label for = "filter_filterD">Filter D</label>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <input id = "filter_filterD" type = "checkbox" name = "filterD" value = "true" <?php if ($filterD) echo "checked" ?> />
-                        </div>
-                    </div>
+                            echo "<div class = 'col-sm-3'>";
+                            echo "<input id = 'filter$index' type = 'checkbox' name = $category value = 'true' "; if ($filter) echo "checked"; echo " />";
+                            echo "</div>";
+                            echo "</div>";
+                        }
+                    ?>
 
                     <div class = "row">
                         <div class="col-sm-8">
@@ -151,9 +202,17 @@
                         </div>
                     </div>
 
+                    <input name = "page" type = "hidden" value = "0" />
                     <input name = "search" type = "hidden" value = "<?php echo "$search" ?>" />
                 </fieldset>
             </form>
         </div>
+
+        <script>
+            function pageClick(index) {
+                document.getElementById("page_input").value = index.toString();
+                document.getElementById("page_form").submit();
+            }
+        </script>
     </body>
 </html>
